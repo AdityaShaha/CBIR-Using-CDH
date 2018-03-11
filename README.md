@@ -30,3 +30,21 @@ mongorestore --db db_name .
 
 ### Dataset used
 Dataset used for the project is Corel-10k dataset which contains 100 categories, and there are 10,000 images from diverse contents such as sunset, beach, flower, building, car, horses, mountains, fish, food, door, etc. Each category contains 100 images of size 192×128 or 128×192 in the JPEG format.  The dataset can be downloaded from [Corel-10K](http://www.ci.gxnu.edu.cn/cbir/Dataset.aspx)
+
+# Working
+### Sample Input: 
+![input](https://i.imgur.com/J533tjQ.jpg)
+
+The sample input is taken as per the algorithm described above, the processing is taken place.
+After which the top results which are similar to the query image are returned.
+
+### Sample Output:
+![output1](https://i.imgur.com/p5X22zO.jpg)
+![output2](https://i.imgur.com/Emrdnx3.jpg)
+![output3](https://i.imgur.com/VOBowyi.jpg)
+![output4](https://i.imgur.com/P5Ugctf.jpg)
+![output5](https://i.imgur.com/eZICJUO.jpg)
+![output6](https://i.imgur.com/YTalMKE.jpg)
+
+The outputs are more or less similar except for one (the helicopter photo)which is an outlier 
+but still it is having an accuracy of around about 83% for top 6 images.
