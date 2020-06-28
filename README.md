@@ -24,9 +24,10 @@ Color Difference Histogram algorithm can be considered as an improved Multi-Text
 - CDH.py: Python code responsible for extracting the features from the images and seeding it into MongoDB database.
 - dump/CDHCorel: Folder containing the actual dump (108 bin feature-vector for each image) of the seeded images in the database. It can be restored as:
 ```
-cd Directory
+cd dump/CDHCorel/
 mongorestore --db db_name .
 ```
+-  Corel10k : The images dataset downloaded from the link given below. Download the dataset and put all the images in the directory named `Corel10k` which is made in the same folder as the notebook that you are executing.
 
 ### Dataset used
 Dataset used for the project is Corel-10k dataset which contains 100 categories, and there are 10,000 images from diverse contents such as sunset, beach, flower, building, car, horses, mountains, fish, food, door, etc. Each category contains 100 images of size 192×128 or 128×192 in the JPEG format.  The dataset can be downloaded from [Corel-10K](http://www.ci.gxnu.edu.cn/cbir/Dataset.aspx)
