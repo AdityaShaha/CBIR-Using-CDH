@@ -1,5 +1,5 @@
 # Image Retrieval using Color Difference Histogram
-Implementation of Content Based Image Retrieval Process based on Color Difference Histogram described by Guang-Hai Liu et al. in the [paper](https://doi.org/10.1016/j.patcog.2012.06.001) using Python. The project was done under the guidance of [Prof. Kumar](https://research.vit.ac.in/researcher/naveen-kumar-n)
+Implementation of Content Based Image Retrieval Process based on Color Difference Histogram described by Guang-Hai Liu et al. in the [paper](https://doi.org/10.1016/j.patcog.2012.06.001) using Python. The project was done under the guidance of [Prof. Naveen Kumar N](https://research.vit.ac.in/researcher/naveen-kumar-n)
 
 ## Color Difference Histogram
 Color Difference Histogram (CDH) method counts the perceptually uniform color difference between two points under different backgrounds with regard to colors and edge orientations in L\*a\*b\* colorspace because the visual perceptual differences between two colors in L\*a\*b\* colorspace are related to a measure of Euclidean distance while R, G and B components are highly correlated, and therefore, chromatic information is not directly fit for use. CDH also takes into account the spatial layout without any image segmentation, learning processes or any clustering implementation.
